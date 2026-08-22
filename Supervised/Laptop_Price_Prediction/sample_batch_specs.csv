@@ -1,0 +1,8 @@
+device_type,brand,os,form_factor,release_year,warranty_months,cpu_brand,cpu_tier,cpu_cores,cpu_threads,cpu_base_ghz,cpu_boost_ghz,gpu_brand,gpu_tier,vram_gb,gpu_generation,gpu_suffix,ram_gb,storage_type,storage_gb,storage_drive_count,display_type,display_size_in,resolution_pixels,refresh_hz,battery_wh,charger_watts,psu_watts,weight_kg,wifi,bluetooth
+Laptop,Acer,Windows,Mainstream,2023,12,Intel,2,4,8,1.8,3.2,Intel,1,0,0,None,8,SSD,256,1,LED,15.6,1049088,60,42,45,0,1.9,Wi-Fi 5,4.2
+Laptop,ASUS,Windows,Gaming,2024,24,AMD,4,8,16,3.0,4.4,NVIDIA,4,8,40,None,16,SSD,1024,1,IPS,15.6,2073600,144,90,180,0,2.3,Wi-Fi 6,5.2
+Laptop,ASUS,Windows,Gaming,2025,24,Intel,6,14,20,2.2,4.4,NVIDIA,6,16,40,Ti,32,SSD,2048,1,OLED,17.3,3686400,240,99,280,0,2.9,Wi-Fi 6E,5.3
+Laptop,Lenovo,Windows,Ultrabook,2024,36,Intel,3,6,12,2.4,4.4,Intel,1,0,0,None,16,SSD,512,1,IPS,14.0,2304000,60,57,65,0,1.3,Wi-Fi 6,5.1
+Laptop,Apple,macOS,Ultrabook,2024,12,Apple,5,10,10,3.5,4.0,Apple,4,0,0,None,16,SSD,512,1,Mini-LED,14.2,5939136,120,70,67,0,1.6,Wi-Fi 6E,5.3
+Desktop,Dell,Windows,Mainstream,2023,12,Intel,2,6,12,2.5,4.1,Intel,1,0,0,None,8,HDD,1024,1,LED,13.3,2073600,60,0,0,400,6.0,Wi-Fi 5,4.2
+Laptop,NotARealBrand,Windows,Mainstream,2024,12,Intel,3,99999,8,1.8,3.2,Intel,1,0,0,None,8,SSD,256,1,LED,15.6,1049088,60,42,45,0,1.9,Wi-Fi 5,4.2
