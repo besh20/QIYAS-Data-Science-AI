@@ -20,8 +20,12 @@ import cv2
 # ----------------------------------------------------------------------
 # Config
 # ----------------------------------------------------------------------
-MODEL_PATH = "real_vs_fake_face_model.keras"
-DATA_DIR = "real_and_fake_face"
+# Streamlit Cloud runs apps with the repo root as cwd, not the
+# folder app.py lives in, so a plain relative path can fail to find the file
+# even when it's sitting right next to app.py.
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(SCRIPT_DIR, "real_vs_fake_face_model.keras")
+DATA_DIR = os.path.join(SCRIPT_DIR, "real_and_fake_face")
 IMG_SIZE = (224, 224)
 
 # Real numbers from the notebook's final run -- update if you retrain
