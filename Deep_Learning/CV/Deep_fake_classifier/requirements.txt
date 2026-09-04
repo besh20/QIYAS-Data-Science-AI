@@ -1,6 +1,6 @@
 streamlit
 tensorflow
 pillow
-opencv-python==4.14.0.94
+opencv-python-headless==4.14.0.94
 matplotlib
 numpy
