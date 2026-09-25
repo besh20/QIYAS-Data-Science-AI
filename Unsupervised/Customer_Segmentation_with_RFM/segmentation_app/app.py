@@ -45,7 +45,6 @@ SEGMENT_ACTIONS = {
 
 st.set_page_config(
     page_title="Customer Segmentation Dashboard",
-    page_icon="\U0001F6CD\uFE0F",
     layout="wide",
 )
 
@@ -207,7 +206,7 @@ def render_customer_explorer(rfm: pd.DataFrame):
 
     csv_bytes = filtered[["CustomerID", "Segment", "Recency", "Frequency", "Monetary"]].to_csv(index=False).encode("utf-8")
     st.download_button(
-        "\U0001F4E5 Download this list as CSV",
+        "Download this list as CSV",
         data=csv_bytes,
         file_name="customer_segments.csv",
         mime="text/csv",
@@ -309,7 +308,7 @@ log-transformed RFM features.
 # Sidebar
 # ---------------------------------------------------------------------------
 
-st.title("\U0001F6CD\uFE0F Customer Segmentation Dashboard")
+st.title("Customer Segmentation Dashboard")
 st.caption("Upload transaction data, get actionable customer segments -- no code required.")
 
 with st.sidebar:
@@ -325,7 +324,7 @@ with st.sidebar:
         help="Use the existing trained model to segment new customers, or train a fresh model on the uploaded data.",
     )
 
-    run_button = st.button("\U0001F680 Run Segmentation", type="primary", use_container_width=True)
+    run_button = st.button("Run Segmentation", type="primary", use_container_width=True)
 
     st.divider()
     if model is not None:
@@ -373,14 +372,14 @@ if run_button:
                 st.error(f"Something went wrong processing this file: {e}")
 
 tab_dashboard, tab_explorer, tab_health, tab_about = st.tabs(
-    ["\U0001F4CA Dashboard", "\U0001F465 Customer Explorer", "\U0001FA7A Model Health", "\u2139\uFE0F About This App"]
+    ["Dashboard", "Customer Explorer", "Model Health", "About This App"]
 )
 
 with tab_dashboard:
     if st.session_state.rfm_result is not None:
         render_dashboard(st.session_state.rfm_result)
     else:
-        st.info("\U0001F448 Upload a transaction file and click **Run Segmentation** in the sidebar to get started.")
+        st.info("Upload a transaction file and click **Run Segmentation** in the sidebar to get started.")
 
 with tab_explorer:
     if st.session_state.rfm_result is not None:
