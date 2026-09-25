@@ -1,0 +1,42 @@
+[
+  {
+    "question": "where is risk assessed in this codebase?",
+    "expected_file": "explain.py",
+    "expected_symbol": "analyze_code"
+  },
+  {
+    "question": "what does chunk_file do?",
+    "expected_file": "ingest.py",
+    "expected_symbol": "chunk_file"
+  },
+  {
+    "question": "how does the code figure out which directories to skip while walking the repo?",
+    "expected_file": "ingest.py",
+    "expected_symbol": "find_python_files"
+  },
+  {
+    "question": "how are the results from vector search and keyword search combined?",
+    "expected_file": "retrieval.py",
+    "expected_symbol": "reciprocal_rank_fusion"
+  },
+  {
+    "question": "how does the tool decide if user_id is being used unsafely in a database query?",
+    "expected_file": "sample_code/example_functions.py",
+    "expected_symbol": "get_user_data"
+  },
+  {
+    "question": "what happens if a function has a mutable default argument like a list?",
+    "expected_file": "sample_code/example_functions.py",
+    "expected_symbol": "add_item"
+  },
+  {
+    "question": "how is a question's tokens turned into words for BM25 search?",
+    "expected_file": "retrieval.py",
+    "expected_symbol": "tokenize"
+  },
+  {
+    "question": "what happens when a question can't be answered from the retrieved code?",
+    "expected_file": "ask.py",
+    "expected_symbol": "answer_question"
+  }
+]
