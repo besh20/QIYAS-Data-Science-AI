@@ -12,7 +12,7 @@ from models import (
     run_backtest,
 )
 
-st.set_page_config(page_title="USD/ETB Forecast", page_icon="🇪🇹", layout="wide")
+st.set_page_config(page_title="USD/ETB Forecast", layout="wide")
 
 st.markdown("""
 <style>
@@ -27,7 +27,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<p class="main-title">🇪🇹 USD/ETB Exchange Rate Forecast</p>', unsafe_allow_html=True)
+st.markdown('<p class="main-title">USD/ETB Exchange Rate Forecast</p>', unsafe_allow_html=True)
 st.markdown(
     '<p class="subtitle">Live rate tracking with trend-aware forecasting, validated across multiple horizons</p>',
     unsafe_allow_html=True
