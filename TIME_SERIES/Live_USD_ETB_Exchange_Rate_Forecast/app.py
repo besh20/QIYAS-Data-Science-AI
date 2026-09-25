@@ -89,7 +89,7 @@ backtest_df = cached_backtest(series)
 # ============================================================
 # SIDEBAR CONTROLS
 # ============================================================
-st.sidebar.header("⚙️ Forecast Settings")
+st.sidebar.header("Forecast Settings")
 horizon = st.sidebar.select_slider(
     "Forecast horizon (days)", options=[7, 14, 30], value=14,
     help="Matches the horizons validated in the backtest below, so the 'recommended model' "
@@ -110,11 +110,11 @@ st.sidebar.markdown(f"**Current rate**\n\n### {last_value:.2f} ETB\nper 1 USD")
 
 status_col1, status_col2 = st.columns([3, 1])
 with status_col1:
-    st.caption(f"📅 Data last updated: **{last_date.date()}**  ·  Source: **{data_source}**")
+    st.caption(f"Data last updated: **{last_date.date()}**  ·  Source: **{data_source}**")
 with status_col2:
-    st.page_link("pages/1_About_This_Project.py", label="ℹ️ How this works", icon="ℹ️")
+    st.page_link("pages/1_About_This_Project.py", label="ℹ How this works")
 
-with st.expander("🔍 What am I looking at?", expanded=False):
+with st.expander(" What am I looking at?", expanded=False):
     st.markdown(
         "This app forecasts the USD → ETB rate using three models, all validated on real "
         "historical data before being trusted:\n\n"
@@ -122,7 +122,7 @@ with st.expander("🔍 What am I looking at?", expanded=False):
         "- **Naive (drift)** — extends the recent average daily change forward. Simple *and* trend-aware.\n"
         "- **ARIMA (drift)** — a statistical model that also accounts for trend, plus its own "
         "short-term pattern detection.\n\n"
-        "👉 See the **Model Accuracy by Horizon** section below — the drift-aware models "
+        "See the **Model Accuracy by Horizon** section below — the drift-aware models "
         "meaningfully outperform the flat naive forecast at every horizon beyond 1 day, "
         "which makes sense given the Birr's steady depreciation trend."
     )
@@ -135,7 +135,7 @@ recommended_model = backtest_df.loc[horizon].idxmin()
 recommended_error = backtest_df.loc[horizon].min()
 
 st.success(
-    f"✅ **Recommended model for {horizon}-day forecasts: {recommended_model}** "
+    f"**Recommended model for {horizon}-day forecasts: {recommended_model}** "
     f"— lowest backtested error at this horizon ({recommended_error:.2f}% MAPE)."
 )
 
@@ -215,7 +215,7 @@ st.plotly_chart(fig, use_container_width=True)
 # ============================================================
 # EXPLICIT FORECAST TABLE + CSV EXPORT
 # ============================================================
-st.subheader("📋 Forecasted Values")
+st.subheader("Forecasted Values")
 
 table_data = {
     "Date": forecast_dates.date,
@@ -242,7 +242,7 @@ with download_col:
     st.write("")
     st.write("")
     st.download_button(
-        "⬇️ Download CSV",
+        "Download CSV",
         data=forecast_table.to_csv(index=False),
         file_name=f"usd_etb_forecast_{horizon}d.csv",
         mime="text/csv",
@@ -253,7 +253,7 @@ with download_col:
 # ============================================================
 # MODEL ACCURACY BY HORIZON (the real validation)
 # ============================================================
-st.subheader("📊 Model Accuracy by Horizon")
+st.subheader("Model Accuracy by Horizon")
 st.caption("Rolling-origin backtest — each model re-tested from multiple starting points in the past, "
            "then measured at 1, 7, 14, and 30 days out. This is a fair, like-for-like comparison.")
 
@@ -270,7 +270,7 @@ st.info(
     f"is on the **About This Project** page."
 )
 
-with st.expander("📄 View raw historical data"):
+with st.expander("View raw historical data"):
     st.dataframe(df.tail(30), use_container_width=True)
 
 st.caption("Built as a time series practice project · Data via Yahoo Finance · Models: statsmodels ARIMA/SARIMAX")
