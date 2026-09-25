@@ -116,7 +116,7 @@ with st.sidebar:
                "using your own key means you're never sharing someone else's rate limit.")
 
 tab_index, tab_explain, tab_ask, tab_agent, tab_eval = st.tabs(
-    ["⚙️ Index", "📄 Explain Code", "🔍 Ask", "🩺 Investigate & Fix", "📊 Retrieval Eval"]
+    ["Index", "Explain Code", "Ask", "Investigate & Fix", "Retrieval Eval"]
 )
 
 # --- Index tab ---
