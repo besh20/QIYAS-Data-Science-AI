@@ -1,0 +1,10 @@
+streamlit>=1.38
+google-genai>=1.0
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+scikit-learn>=1.5
+pandas>=2.2
+sqlalchemy>=2.0
+python-dateutil>=2.9
+ethiopian-date>=0.1
+requests>=2.31

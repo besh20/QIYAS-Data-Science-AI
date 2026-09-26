@@ -1,0 +1,109 @@
+text,language,intent
+I want to register for this semester,english,register
+How do I register for classes,english,register
+I need to enroll for the new intake,english,register
+Can you sign me up for the program,english,register
+I'd like to complete my registration today,english,register
+I am a new student and want to register,english,register
+Please register me for Computer Science,english,register
+I'm ready to submit my registration,english,register
+Can I start the registration process now,english,register
+I want to enroll as a returning student,english,register
+registration meche new?,amharic_latin,register
+registration lay meregat ifeligalehu,amharic_latin,register
+ready ledresge new eyalu,amharic_latin,register
+registration process kemey new,amharic_latin,register
+registration submit ale?,amharic_latin,register
+memzeg ifeligalehu,amharic_latin,register
+ahun meweregat ichilalew?,amharic_latin,register
+tesetፎ student neny memzeg ifeligalehu,amharic_latin,register
+new student neny registration mesiraat ifeligalehu,amharic_latin,register
+kezih semester jemro memzeg ifeligalehu,amharic_latin,register
+ምዝገባ መቼ ነው?,amharic,register
+ምዝገባ ማድረግ እፈልጋለሁ,amharic,register
+ለዚህ ሴሚስተር መመዝገብ እፈልጋለሁ,amharic,register
+አዲስ ተማሪ ነኝ መመዝገብ እፈልጋለሁ,amharic,register
+አሁን መመዝገብ እችላለሁ?,amharic,register
+ለኮምፒውተር ሳይንስ መመዝገብ እፈልጋለሁ,amharic,register
+ምዝገባዬን ማጠናቀቅ እፈልጋለሁ,amharic,register
+what documents do I need to register,english,info
+what are the requirements for registration,english,info
+how much is the registration fee,english,info
+when does registration open,english,info
+where is the registration office,english,info
+what time does the office open,english,info
+is there an online registration option,english,info
+what programs are offered here,english,info
+what is the registration deadline,english,info
+can I register after the deadline,english,info
+do I need my ID card to register,english,info
+how many passport photos do I need,english,info
+is the transcript required for registration,english,info
+how long does registration take,english,info
+what is the tuition fee for this program,english,info
+documents min ale yemifelgew?,amharic_latin,info
+fee sint new?,amharic_latin,info
+registration fee endet new?,amharic_latin,info
+registration meche yikefetal?,amharic_latin,info
+registration office yet new?,amharic_latin,info
+office se'at endet new?,amharic_latin,info
+online meweregat yechalal?,amharic_latin,info
+deadline meche new?,amharic_latin,info
+late registration yechalal?,amharic_latin,info
+transcript yasfeligal?,amharic_latin,info
+photo sint yasfeligal?,amharic_latin,info
+tuition fee sint new?,amharic_latin,info
+ID kard yasfeligal?,amharic_latin,info
+ምን አይነት ወረቀት ያስፈልጋል?,amharic,info
+ስንት ብር ነው ክፍያው?,amharic,info
+ምዝገባ መቼ ይከፈታል?,amharic,info
+ምዝገባ ቢሮ የት ነው?,amharic,info
+ቢሮ መቼ ይከፈታል?,amharic,info
+ኦንላይን ምዝገባ አለ?,amharic,info
+የመጨረሻው ቀን መቼ ነው?,amharic,info
+ትራንስክሪፕት ያስፈልጋል?,amharic,info
+ስንት ፎቶ ያስፈልጋል?,amharic,info
+help me fill out this form,english,assist
+I don't understand this form,english,assist
+can you walk me through the steps,english,assist
+can you explain how this works,english,assist
+I'm confused about what to do next,english,assist
+can you guide me through the process,english,assist
+I need help understanding the requirements,english,assist
+show me how to complete this,english,assist
+what should I do first,english,assist
+can you assist me with this application,english,assist
+formun mlat yirdugn,amharic_latin,assist
+iregagn aygebagnim,amharic_latin,assist
+kezih gar eyseryalehu erdata ifeligalehu,amharic_latin,assist
+help lifelgalehu,amharic_latin,assist
+min madereg endalebign aygebagnim,amharic_latin,assist
+begelts yirdugn,amharic_latin,assist
+steps tun aሳዩኝ,amharic_latin,assist
+እርዳታ እፈልጋለሁ,amharic,assist
+ይህን ፎርም ለመሙላት እርዳታ እፈልጋለሁ,amharic,assist
+ምን ማድረግ እንዳለብኝ አልገባኝም,amharic,assist
+እባክዎ ደረጃዎቹን ያሳዩኝ,amharic,assist
+I want to talk to someone,english,escalate
+I need to speak to a human,english,escalate
+my ID card is lost what do I do,english,escalate
+this isn't working can I talk to staff,english,escalate
+I have a complaint,english,escalate
+my documents were rejected why,english,escalate
+nothing here is helping me,english,escalate
+can someone call me back,english,escalate
+I need special assistance not listed here,english,escalate
+this is urgent I need a person now,english,escalate
+can I speak with the registrar directly,english,escalate
+sew agenagn,amharic_latin,escalate
+ID kardu tefabign,amharic_latin,escalate
+cheguar alegn,amharic_latin,escalate
+legul yemignager sew ifeligalehu,amharic_latin,escalate
+staff aggagnugn,amharic_latin,escalate
+yihe atederegim sew mignager ichilalew?,amharic_latin,escalate
+azhu ale eyfeleg new,amharic_latin,escalate
+ሰው አገናኙኝ,amharic,escalate
+ቅሬታ አለኝ,amharic,escalate
+ይህ አልሰራልኝም ሰው ማነጋገር እፈልጋለሁ,amharic,escalate
+የመታወቂያ ካርዴ ጠፋብኝ ምን ማድረግ አለብኝ?,amharic,escalate
+ከሰራተኛ ጋር ማውራት እፈልጋለሁ,amharic,escalate

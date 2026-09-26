@@ -1,0 +1,9 @@
+{
+  "fields": [
+    {"name": "full_name", "type": "text", "required": true, "note": "accept Ge'ez or Latin script"},
+    {"name": "phone", "type": "phone_et", "required": true, "note": "format 09xxxxxxxx or +2519xxxxxxxx"},
+    {"name": "program", "type": "text", "required": true, "note": "replace with real program list"},
+    {"name": "date_of_birth", "type": "date_et", "required": true, "note": "accept Ethiopian calendar, convert internally"},
+    {"name": "id_number", "type": "text", "required": false, "note": "PLACEHOLDER - confirm if actually required"}
+  ]
+}

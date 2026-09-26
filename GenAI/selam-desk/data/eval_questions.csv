@@ -1,0 +1,38 @@
+text,language,intent
+sign me up for classes please,english,register
+I need to complete enrollment,english,register
+starting my registration now,english,register
+put me down for this program,english,register
+I am ready to join this semester,english,register
+kezi semester gar memzeg ifeligalehu,amharic_latin,register
+tint neber student neny ahun memzeg,amharic_latin,register
+መመዝገብ እችላለሁ?,amharic,register
+የምዝገባ ሂደት ጀምር,amharic,register
+what papers should I bring,english,info
+tell me the cost to register,english,info
+is there a way to apply online,english,info
+what time can I come to the office,english,info
+last day to sign up,english,info
+kesu paper endet new yemifelgew,amharic_latin,info
+birr sint new le registration,amharic_latin,info
+office kemey se'at new kefetu,amharic_latin,info
+የመመዝገቢያ ገንዘብ ስንት ነው?,amharic,info
+ቢሮው መቼ ክፍት ነው?,amharic,info
+የመጨረሻ ቀን ስንት ነው?,amharic,info
+"I'm lost, what do I click next",english,assist
+walk me through filling this out,english,assist
+not sure what info goes here,english,assist
+can you show me an example,english,assist
+min madereg alebign aygebagnim,amharic_latin,assist
+kezi ke tebay gar irdata,amharic_latin,assist
+ይህን እንዴት እንደምሞላ አላውቅም,amharic,assist
+እባክዎ አብረውኝ ይሂዱ,amharic,assist
+get me a real person please,english,escalate
+this app isn't answering my real problem,english,escalate
+I was overcharged and need help,english,escalate
+my name is spelled wrong on my file,english,escalate
+transfer me to the registrar,english,escalate
+staffu gar man'gager ifeligalehu,amharic_latin,escalate
+computer ye system layiw sihategn,amharic_latin,escalate
+ስሜ በስህተት ተጽፏል እርዱኝ,amharic,escalate
+ኮምፒውተሩ ላይ ችግር አለ ሰው ላግኘኝ,amharic,escalate
